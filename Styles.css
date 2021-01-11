@@ -6,7 +6,11 @@
 } */
 
 header{
-	background-color: #fff;
+	background-color: rgb(51, 51, 51);
+}
+
+html{
+	background-color: #1f1f1f;
 }
 
 nav{
@@ -23,9 +27,10 @@ nav.menu-nav ul{
 
 
 nav.menu-nav ul li h1.title{
-	color: #862eca;
+	color: #63b3db;
 	box-shadow: 0px 2px black;
 	text-decoration: none;
+	
 }
 
 
@@ -47,9 +52,9 @@ nav.menu-nav ul li.btn a{
 
 nav.menu-nav ul li.btn:hover a{
 	background-color: #fff;
-	color: #862eca;
+	color: #1f1f1f;
 	transition: 0.5s all;
-	border: 1px #862eca solid;
+	border: 1px #1f1f1f solid;
 	border-radius: 10px;
 }
 
@@ -57,6 +62,7 @@ nav.menu-nav ul li.btn:hover a{
 div.image img.panneau{
 	margin-left: 200px;
 	opacity: 1;
+	
 }
 
 
@@ -66,7 +72,8 @@ div.line{
 
 
 nav.menu-wel ul{
-		background-color:  #862eca;
+		background-color:  #000;
+		
 }
 
 nav.menu-wel ul li{
@@ -75,7 +82,7 @@ nav.menu-wel ul li{
 }
 
 nav.menu-wel ul li div.image{
-
+	align-items: center;
 	
 }
 
@@ -144,7 +151,7 @@ div#content div{
 div#content a{
 	list-style-type: none;
 	text-decoration: none;
-	color: #862eca;	
+	color: #63b3db;	
 }
 
 

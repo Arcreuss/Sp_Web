@@ -5,43 +5,11 @@
 	<link rel="stylesheet" type="text/css" href="Styles.css">
 	<link rel="shortcut icon" href="icone/panneau2.ico">
 	<link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
-	<title>SunFlower</title>
+	<title>Complosite</title>
 </head>
 
 <body>
-	<!-- haut de Page -->
-	<header>
-	<a href="?p=home" >Home</a>
-	<!-- menu de Navigation -->
-	<nav class="menu-nav">
-		<ul>
-			<li class="btn">
-				<h1 class="title">
-			Bienvenue sur le Projet d'Energie solaire
-				</h1>
-			</li>
-			<li class="btn">
-				<a href="#Panneau">
-					 Panneau Solaire
-				</a>
-			</li>
-			<li class="btn">
-				<a href="#données">
-					Données
-				</a>
-			</li>
-			<li class="btn">
-				<a href="#L'équipe">
-					L'équipe
-				</a>
-            </li>
-            <li>
-                <a href="?p=home" >Home</a>
-            </li>
-
-		</ul>
-	</nav>
-
+	
 
 		<!-- <div class="line">
 			<p>
@@ -56,62 +24,16 @@
 		<ul>
 			<li>
 				<div class="image">
-		<!-- <img class="panneau" src="img/screen.jpg" width="600" height="300"> -->
-	  				<!-- <img class="panneau" src="img/power-solar.png" width="600" height="300"> -->
+				<img src="images/complosite.jpg" alt="Complosite">
 	  			</div>
 			</li>
 		
-			<li class="text">
-				<p>
-					<strong> Bienvenue disciple du Soleil ! </strong> <br>
-					<i>Suivons ensemble cette course, <br>
-					La Course du Soleil. </i><br>
-				</p>
-			</li>
+			
 		</ul>
 	</nav>
 
 	<!-- contenu sous forme de boite -->
-	<div id="content">
-
-	  <a href="panneau.html">
-		<div class="leftBox">
-			<h1 id="Panneau" class="PP"><i>Panneau Photovoltaïque:</i></h1>
-			<ul>
-				<li>Idée de conception</li>
-				<li>Graphiques/Photos</li>
-				<li>Système du panneau</li>
-				<li>Expérience</li>
-			</ul>
-	  </a>
-
-		</div>
-
-		<a href="données.html">
-		<div class="RIGHTBox">
-			<h1 id="données" class="DTR">
-				<i>Dernière données trouvées en temps réel:</i></h1>
-				<ul>
-					<li>Tension Batterie :</li>
-					<li>Tension Panneau  :</li>
-					<li>Courant Batterie :</li>
-				</ul>
-		</div>
-	</a>
 	
-		<a href="equipe.html">
-		<div class="equipBox">
-			<h1 id="L'équipe" class="equip"><i> Les membres du groupes</i></h1>
-			<ul>
-					<li>Perrod Ethan</li>
-					<li>Diaz Lucas</li>
-					<li>Laouti Maël</li>
-					<li>Blondiaux Pierre</li>
-				</ul>
-		</a>	
-		</div>
-
-	</div>
 <!--
 		<div class="annonce">
 			<p>
