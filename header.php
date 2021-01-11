@@ -11,7 +11,7 @@
 <body>
 	<!-- haut de Page -->
 	<header>
-
+	<a href="?p=home" >Home</a>
 	<!-- menu de Navigation -->
 	<nav class="menu-nav">
 		<ul>
@@ -34,7 +34,10 @@
 				<a href="#L'équipe">
 					L'équipe
 				</a>
-			</li>
+            </li>
+            <li>
+                <a href="?p=home" >Home</a>
+            </li>
 
 		</ul>
 	</nav>
@@ -142,17 +145,3 @@
 	<br>
 
 		<!-- <h1 id="L'équipe"></h1> -->
-
-	</body>
-
-
-	<!-- pied de page -->
-	<footer>
-		<p>
-			Copyright &copy; PERROD Ethan / DIAZ Lucas / LAOUTI Maël / BLONDIAUX Pierre 2019-2020 - All Right reserved
-		</p>
-	</footer>
-
-
-</body>
-</html>
