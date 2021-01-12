@@ -2,6 +2,7 @@
 
     if(!isset($_GET['p']) || empty($_GET['p'])) {
         header("Location: ?p=home");
+        //$_GET['p'] = "home";
     }
 
     
