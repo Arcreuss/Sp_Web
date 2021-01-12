@@ -137,9 +137,10 @@ if (! empty( $_POST))
 {
 
 
-	echo "ok";
 
-	$paragraphe=str_getcsv($_POST['paragraphe'],"\n");
+
+	$_POST['prop']=preg_replace("/\n/","¬", $_POST['prop']);
+
 
 	$lignesauvegarder=$_POST['titre'].';'.date('d-m-y').';'.$_POST['pseudo'].';'.$_POST['url'].';'.$_POST['desc'].';'.$_POST['prop'].';#source;';
 			$i=0;
@@ -148,7 +149,6 @@ if (! empty( $_POST))
 		$i++;
 	}
 	$lignesauvegarder.="#commentaire";
-	echo $lignesauvegarder;
 
 	include_once("exo3-treat.php");
 }
