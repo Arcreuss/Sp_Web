@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8" />
 <title>Formulaire</title>
-<link rel="stylesheet" href="submission-traitement.css"/>
+<link rel="stylesheet" href="exo3-form.css"/>
 <!-- décommenter pour inclure du javascript <script src="script.js"></script> -->
 </head>
 <body>
 <h1>Formulaire Théorie</h1>
-<form id="exo3" method="post"  >
+<form id="exo3" method="post" action="exo3-form.php" >
 <div>
 <fieldset>
 <legend>Propositions</legend>
@@ -137,10 +137,9 @@ if (! empty( $_POST))
 {
 
 
+	echo "ok";
 
-
-	$_POST['prop']=preg_replace("/\n/","¬", $_POST['prop']);
-
+	$paragraphe=str_getcsv($_POST['paragraphe'],"\n");
 
 	$lignesauvegarder=$_POST['titre'].';'.date('d-m-y').';'.$_POST['pseudo'].';'.$_POST['url'].';'.$_POST['desc'].';'.$_POST['prop'].';#source;';
 			$i=0;
@@ -149,6 +148,7 @@ if (! empty( $_POST))
 		$i++;
 	}
 	$lignesauvegarder.="#commentaire";
+	echo $lignesauvegarder;
 
 	include_once("exo3-treat.php");
 }
