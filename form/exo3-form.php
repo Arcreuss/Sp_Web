@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8" />
 <title>Formulaire</title>
-<link rel="stylesheet" href="submission-traitement.css"/>
+<link rel="stylesheet" href="exo3-form.css"/>
 <!-- décommenter pour inclure du javascript <script src="script.js"></script> -->
 </head>
 <body>
 <h1>Formulaire Théorie</h1>
-<form id="exo3" method="post"  >
+<form id="exo3" method="post" action="exo3-form.php" >
 <div>
 <fieldset>
 <legend>Propositions</legend>
@@ -78,28 +78,6 @@ echo "$prop"; }
 ?>
 </textarea>
 </p>
-			<?php 
-				for($i=0;$i<$_POST['+']+1;$i++){
-					echo '<p>';
-					echo "<label for=\"nomSource$i\">Nom de la source</label>";
-
-					echo "<input type=\"text\" name=\"nomSource$i\" id=\"nomSource$i\">";
-
-					echo "<label for=\"lienSource$i\">Lien de la source</label>";
-
-					echo "<input type=\"text\" name=\"lienSource$i\" id=\"lienSource$i\">";
-				}
-
-					$plus=$_POST['+']+1;
-				echo "<button type=\"submit\" name=\"+\" value=\"$plus\">+</button>";
-
-				
-				if($_POST['+']>0){
-					$plus=$_POST['+']-1;
-					echo "<button type=\"submit\" name=\"+\" value=\"$plus\">-</button>";
-				}
-				echo '</p>';
-			?>
 </fieldset>
 <fieldset>
 <legend>Infos autres</legend>
@@ -135,22 +113,7 @@ echo "/> <label for=\"$type\">$type</label><br />" ;
 <?PHP
 if (! empty( $_POST))
 {
-
-
-
-
-	$_POST['prop']=preg_replace("/\n/","¬", $_POST['prop']);
-
-
-	$lignesauvegarder=$_POST['titre'].';'.date('d-m-y').';'.$_POST['pseudo'].';'.$_POST['url'].';'.$_POST['desc'].';'.$_POST['prop'].';#source;';
-			$i=0;
-	while (array_key_exists("nomSource$i",$_POST)) {
-		$lignesauvegarder.=$_POST["nomSource$i"].";".$_POST["lienSource$i"].";";
-		$i++;
-	}
-	$lignesauvegarder.="#commentaire";
-
-	include_once("exo3-treat.php");
+include_once("exo3-treat.php");
 }
 
 ?>
