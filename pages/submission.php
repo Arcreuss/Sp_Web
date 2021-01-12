@@ -8,7 +8,7 @@
 </head>
 <body>
 <h1>Formulaire Théorie</h1>
-<form id="sub" method="post" action="submission.php">
+<form id="sub" method="post" action="">
 <div>
 <fieldset>
 <legend>Propositions</legend>
@@ -77,6 +77,28 @@ echo "$desc"; }
 echo "$prop"; } 
 ?>
 </textarea>
+<?php 
+                for($i=0;$i<$_POST['+']+1;$i++){
+                    echo '<p>';
+                    echo "<label for=\"nomSource$i\">Nom de la source</label>";
+
+                    echo "<input type=\"text\" name=\"nomSource$i\" id=\"nomSource$i\">";
+
+                    echo "<label for=\"lienSource$i\">Lien de la source</label>";
+
+                    echo "<input type=\"text\" name=\"lienSource$i\" id=\"lienSource$i\">";
+                }
+
+                    $plus=$_POST['+']+1;
+                echo "<button type=\"submit\" name=\"+\" value=\"$plus\">+</button>";
+
+                
+                if($_POST['+']>0){
+                    $plus=$_POST['+']-1;
+                    echo "<button type=\"submit\" name=\"+\" value=\"$plus\">-</button>";
+                }
+                echo '</p>';
+            ?>
 </fieldset>
 <fieldset>
 <legend>Infos autres</legend>
@@ -114,6 +136,7 @@ if (! empty( $_POST))
 {
 
 
+
 	$_POST['prop']=preg_replace("/\n/","¬", $_POST['prop']);
 
 
@@ -124,8 +147,11 @@ if (! empty( $_POST))
 		$i++;
 	}
 	$lignesauvegarder.="#commentaire";
+	
 
 	include_once("submission-traitement.php");
+
+	echo $lignesauvegarder;
 }
 
 ?>
