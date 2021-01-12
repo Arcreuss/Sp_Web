@@ -47,17 +47,17 @@ nav.menu-nav ul li.btn{
 
 nav.menu-nav ul li.btn a{
 	text-decoration: none;
-	color: #63b3db; /*#5b5a59  */
+	
 	font-size: 19px;
 	padding: 10px;
 	margin: 10px;
 }
 
 nav.menu-nav ul li.btn:hover a{
-	background-color: #fff;
-	color: #1f1f1f;
+	background-color: transparent;
+	color: #47b8d4;
 	transition: 0.5s all;
-	border: 1px #1f1f1f solid;
+	border: 1px #47b8d4 solid;
 	border-radius: 10px;
 }
 
@@ -102,7 +102,7 @@ nav.menu-wel ul li.text{
 nav.menu-wel ul li p{
 	margin-left: 400px;
 	font-size: 40px;
-	background-color: #bcb2e1;
+	background-color: #3b6388;
 	text-indent: 40px;
 	padding: 20px;
 }
@@ -137,6 +137,9 @@ body{
 
 footer{
 	background-color:  white;
+	float: right;
+	font-size: 18px;
+	color: rgba(54, 54, 54, 0.5);
 }
 
 div#content{
@@ -175,7 +178,7 @@ div#content div.leftBox:hover{
 
 div#content div.leftBox ul li{
 	font-size: 25px;
-	color: #5b5a59;
+	color: #595a5b;
 	padding: 20px;
 }
 
@@ -220,15 +223,15 @@ div#content div.equipBox:hover{
 }
 
 div#content div h1.PP{
-	font-color:#862eca;
+	color:#63b3db;
 }
 
 div#content div h1.DTR{
-	font-color:#862eca;
+	color:#63b3db;
 }
 
 div#content div h1.equip{
-	font-color: #862eca;
+	color: #63b3db;
 }
 
 div#content div h1, p, img{
@@ -243,6 +246,10 @@ div#content div h1, p, img{
 	margin-top: -5%;
 	background-image: url("images/fond.jpg");
 	border-radius: 15px;
+}
+
+.select{
+	color: #47b8d4;
 }
 
 /* div#content div.annnonce{

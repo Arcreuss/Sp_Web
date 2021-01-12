@@ -2,6 +2,7 @@
 
     if(!isset($_GET['p']) || empty($_GET['p'])) {
         header("Location: ?p=home");
+        $_GET['p']= "home";
     }
 
     
@@ -18,6 +19,8 @@
     elseif($_GET['p'] == "apropos")
         include_once('pages/apropos.php');
     
+    else
+    include_once('pages/home.php');
 
 
 ?>
