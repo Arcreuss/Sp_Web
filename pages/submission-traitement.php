@@ -50,5 +50,18 @@ foreach ( $_POST['types'] as $type )
 echo $type." ";
 }
 }
+if  ($ok)
+ { 
+     $file =fopen("users.txt","a");
+     if (! $file)
+        die ( "pb avec le fichier users.txt");
+     fwrite ($file,"Pseudo : $pseudo \n Mail : $mail \n Type :$form\n Lien Illustration : $url\n Description Image : $desc \n Titre de la théorie : $titre  \n   Texte : $prop \n________________________________");
+     fclose($file);  
 
+     $file =fopen("data.csv","a");
+     if (! $file)
+        die ( "pb avec le fichier data.csv");
+     fwrite ($file,"\n$lignesauvegarder");
+     fclose($file);  
+}
 ?>

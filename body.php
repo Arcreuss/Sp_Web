@@ -1,9 +1,7 @@
 <!-- haut de Page -->
 	<!-- <h1>Article :</h1> -->
 	<div class="centerBox">
-	<?php
-	include_once("article.php");
-	?>
+
 
 	<!-- menu de Navigation -->
 
