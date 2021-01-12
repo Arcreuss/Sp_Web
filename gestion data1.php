@@ -2,6 +2,8 @@
 	$taille=count($article);
 	if($taille!=0){
 		$titre=$article[0];
+
+
 		$datePublication=$article[1];
 		$auteur=$article[2];
 		$lienImage=$article[3];

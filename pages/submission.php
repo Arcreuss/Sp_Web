@@ -46,7 +46,7 @@ size="30" <?PHP if (isset ( $_POST['mail' ])) { $mail = $_POST['mail' ]; echo "v
 <p>
 <label for="titre">Titre :</label> <strong><abbr title="required">*</abbr></strong>
 <input type="text" name="titre" id="titre" size="30"
-maxlength="10" <?PHP if (isset ( $_POST['titre' ])) { $titre =
+maxlength="50" <?PHP if (isset ( $_POST['titre' ])) { $titre =
 $_POST['titre' ]; echo "value =\"$titre\""; } ?> /></p>
 </p>
 
@@ -139,6 +139,9 @@ if (! empty( $_POST))
 
 	$_POST['prop']=preg_replace("/\n/","¬", $_POST['prop']);
 
+    $_POST['titre']=preg_replace("/ /","-", $_POST['titre']);
+    $_POST['titre']=strtolower($_POST['titre']);
+
 
 	$lignesauvegarder=$_POST['titre'].';'.date('d-m-y').';'.$_POST['pseudo'].';'.$_POST['url'].';'.$_POST['desc'].';'.$_POST['prop'].';#source;';
 			$i=0;
@@ -147,11 +150,9 @@ if (! empty( $_POST))
 		$i++;
 	}
 	$lignesauvegarder.="#commentaire";
-	
 
 	include_once("submission-traitement.php");
 
-	echo $lignesauvegarder;
 }
 
 ?>
