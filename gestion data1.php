@@ -12,8 +12,12 @@
 		$commentaire=array();
 
 		
-		$paragraphe=str_getcsv($_POST['paragraphe'],"¬");
-		$i=6;
+		$paragraphe=str_getcsv($article[5],"¬");
+		foreach ($paragraphe as $key => $value) {
+			if($key!='0')
+			$paragraphe[$key][0]=' ';
+		}
+		$i=7;
 		while($article[$i]!="#commentaire" && $i<=$taille){
 			$source[$article[$i]]=$article[$i+1];
 			$i+=2;
@@ -23,6 +27,9 @@
 			$commentaire[]=array('username' => $article[$i],'date' => $article[$i+1],'commentaire' => $article[$i+2]);
 			$i+=3;
 		}
+		$i++;
+		
 		include_once('article.php');
 	}
 ?>
+
