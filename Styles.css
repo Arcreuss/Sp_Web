@@ -15,12 +15,13 @@ html{
 
 nav{
 	box-shadow: 0px 1px black;
+	
 }
 
 
 
 nav.menu-nav ul{
-	display: inline-block;
+	
 	list-style-type: none;
 	font-family: 'Righteous', cursive;
 }
@@ -35,16 +36,18 @@ nav.menu-nav ul li h1.title{
 
 
 nav.menu-nav ul li.btn{
-	display: inline-block;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
 	list-style-type: none;
-	margin-left: 100px;
-
+	margin-left: -40px;
+	
 }
 
 
 nav.menu-nav ul li.btn a{
 	text-decoration: none;
-	color: #000; /*#5b5a59  */
+	color: #63b3db; /*#5b5a59  */
 	font-size: 19px;
 	padding: 10px;
 	margin: 10px;
@@ -78,7 +81,7 @@ nav.menu-wel ul{
 
 nav.menu-wel ul li{
 	list-style-type: none;
-	display: inline-block;
+	
 }
 
 nav.menu-wel ul li div.image{
@@ -143,7 +146,7 @@ div#content{
 
 
 div#content div{
-	display: inline-block;
+	
 	margin-left: 30%;	
 	width: 30%;
 }
@@ -225,11 +228,21 @@ div#content div h1.DTR{
 }
 
 div#content div h1.equip{
-	font-color:#862eca;
+	font-color: #862eca;
 }
 
 div#content div h1, p, img{
 	margin: 20px;
+}
+
+.menu-nav{
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	margin-left: 79%;
+	margin-top: -5%;
+	background-image: url("images/fond.jpg");
+	border-radius: 15px;
 }
 
 /* div#content div.annnonce{

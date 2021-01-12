@@ -1,12 +1,13 @@
 <!-- haut de Page -->
-<header>
+
 	
 	<!-- menu de Navigation -->
+
 	<nav class="menu-nav">
 		<ul>
 			<li class="btn">
 				<h1 class="title">
-			Bienvenue sur le Projet d'Energie solaire
+			Menu principal
 				</h1>
 			</li>
 			<li class="btn">
@@ -32,3 +33,4 @@
            
 		</ul>
 	</nav>
+	

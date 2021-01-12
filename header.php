@@ -16,7 +16,7 @@
 			</p>
 		</div> -->
 
-	</header>
+
 
 		<div id="ex1"></div>
 
