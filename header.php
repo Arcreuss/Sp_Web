@@ -16,8 +16,8 @@
 	<nav class="menu-wel">
 		<ul>
 			<li>
-				<div class="image">
-				<img src="images/complosite.jpg" alt="Complosite">
+				<div class="logo">
+				<img src="images/complosite.png" alt="Complosite">
 	  			</div>
 			</li>
 		
