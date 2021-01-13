@@ -1,4 +1,7 @@
-
+a{
+    text-decoration: none;
+    color: #3b6388;
+}
 
 header{
 	background-color: rgb(56, 56, 56);
@@ -20,7 +23,7 @@ body{
 nav.menu-nav ul{
 	
 	list-style-type: none;
-	font-family: 'Righteous', cursive;
+	font-family: "Lucida Console", "Courier New", monospace;
 }
 
 nav.menu-nav{
