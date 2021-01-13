@@ -28,10 +28,10 @@ nav.menu-nav ul{
 
 nav.menu-nav{
 	position: absolute;
-	top:100px;
-    left:100px;
-    width:500px;
-    height:500px;
+	top:470px;
+    right:20px;
+    width:250px;
+    height:350px;
 }
 
 nav.menu-nav ul li h1.title{
