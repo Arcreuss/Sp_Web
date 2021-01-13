@@ -4,6 +4,7 @@
     border-radius: 10px;
     height: 20%;
     width: 50%;
+    margin-left: 3%;
 }
 
 h1{
@@ -14,4 +15,47 @@ h1{
 h2{
     color: rgb(99, 150, 170);
     font-family: "Lucida Console", "Courier New", monospace;
+    margin-left: 2%;
 }
+
+.reseaux{
+    list-style-type: none;
+    font-family: "Trebuchet MS", "Courier New", monospace;
+}
+
+/*LIENS*/
+.listereseaux{
+    display: flex;
+    text-align: center;
+}
+
+.liens{
+    height: 25%;
+    width: 25%;
+}
+
+
+/*IMAGES*/
+.images{
+    height: 25%;
+    width: 25%;
+}
+
+
+p{
+    font-size: 150%;
+}
+
+a{
+    height: 25%;
+    width: 25%;
+    padding: 0;
+}
+
+
+
+.nom{
+    font-family: "Trebuchet MS", "Courier New", monospace;
+    color: white;
+}
+
