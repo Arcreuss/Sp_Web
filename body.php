@@ -18,7 +18,7 @@
 				</a>
 			</li>
 			<li class="btn" >
-				<a href="?p=aleatoire" class="<?php if($_GET['p'] == 'aleatoire') { echo "select"; } ?>">
+				<a href="?p=aleatoire" class="<?php if($_GET['p'] != 'home' && $_GET['p'] != 'submission' && $_GET['p'] != 'apropos') { echo "select"; } ?>">
 					Aléatoire
 				</a>
 			</li>
