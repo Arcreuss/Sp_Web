@@ -27,8 +27,8 @@ nav.menu-nav ul{
 }
 
 nav.menu-nav{
-	position: absolute;
-	top:470px;
+	position: fixed;
+	top:200px;
     right:20px;
     width:250px;
     height:350px;
@@ -137,7 +137,7 @@ footer{
 	float: right;
 	font-size: 18px;
 	color: rgba(54, 54, 54, 0.5);
-	margin-top: 50%;
+	margin-top: 50px;
 }
 
 div#content{
