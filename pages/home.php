@@ -148,42 +148,66 @@ Home a été lancé
   <h2>"L'Apocalypse" 5G</h2>
   <p>Une Nouvelle technologie a vus le jour récemment et il s'agit de la 5G! Il succède à la 4G et promet un accès à des débits bien meilleurs et bien plus performants de ceux de cette dernière avec des latences presques innexistantes et connexion rapide n'importe ou! Mais la provenance et les conséquences de cette nouvelle technologie est d'après certains très peu fiable et dangereuse !</p>
   <p>la Date , l'auteur etc</p>
+<<<<<<< HEAD
   <button class="glow-on-hover" type="button">Cliquez ici Pour Lire !</button>
+=======
+  <button class="glow-on-hover" type="button">Clique Pour Lire !</button>
+>>>>>>> 5a592960f20feffe15c31525960b6c2b385c759f
 </div>
 
 <div class="my2Div">
   <h2>Un Virus aux origines vagues ?</h2>
   <p>Le Covid-19 cache de nombreux mystères dont sa provenance qui n'a jamais été réellement prouvé encore aujourd'hui ! Provient-il de l'ingération d'une chauve-souris? D'un autre animal ? Personne ne sait et pourtant de plus en plus de personnes pensent que l'envers du décors est bien plus effreyante</p>
   <p>la Date , l'auteur etc</p>
+<<<<<<< HEAD
   <button class="glow-on-hover" type="button">Cliquez ici pour Lire !</button>
+=======
+  <button class="glow-on-hover" type="button">Clique Pour Lire !</button>
+>>>>>>> 5a592960f20feffe15c31525960b6c2b385c759f
 </div>
 
 <div class="my3Div">
   <h2>Un vaccin particulier</h2>
   <p>Récémment le vaccin Pfizer-BioNTech qui permet de combattre cette pathologie meurtrière qu'est le Covid-19 à été approuvé et commence déjà à être administré. Tandis que les états du monde le recommande pour combattre cette épidémie , une grande majorité s'oppose à cette vaccination pour différents motifs . La plus populaire d'entre elle? le fait que le vaccin contiendrais une puce assez spéciale... </p>
   <p>la Date , l'auteur etc</p>
+<<<<<<< HEAD
   <button class="glow-on-hover" type="button">Cliquez ici pour Lire !</button>
+=======
+  <button class="glow-on-hover" type="button">Clique Pour Lire !</button>
+>>>>>>> 5a592960f20feffe15c31525960b6c2b385c759f
 </div>
 
 <div class="my4Div">
   <h2>Le Titre</h2>
   <p>Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion </p>
   <p>la Date , l'auteur etc</p>
+<<<<<<< HEAD
   <button class="glow-on-hover" type="button">Cliquez ici pour Lire !</button>
+=======
+  <button class="glow-on-hover" type="button">Clique Pour Lire !</button>
+>>>>>>> 5a592960f20feffe15c31525960b6c2b385c759f
 </div>
 
 <div class="my5Div">
   <h2>Le Titre</h2>
   <p>Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion </p>
   <p>la Date , l'auteur etc</p>
+<<<<<<< HEAD
   <button class="glow-on-hover" type="button">Cliquez ici pour Lire !</button>
+=======
+  <button class="glow-on-hover" type="button">Clique Pour Lire !</button>
+>>>>>>> 5a592960f20feffe15c31525960b6c2b385c759f
 </div>
 
 <div class="my6Div">
   <h2>Le Titre</h2>
   <p>Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion </p>
   <p>la Date , l'auteur etc</p>
+<<<<<<< HEAD
   <button class="glow-on-hover" type="button">Cliquez ici pour Lire !</button>
+=======
+  <button class="glow-on-hover" type="button">Clique Pour Lire !</button>
+>>>>>>> 5a592960f20feffe15c31525960b6c2b385c759f
 </div>
 
 

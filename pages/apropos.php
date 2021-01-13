@@ -12,7 +12,7 @@
 <br><br><br><br><br>
 <h2>Notre site</h2>
 <div class="desc">
-    <p>Notre site est né durant cette année 2020. Celle-ci étant pleine de problèmes nous nous sommes demandés s'il n'y avait pas des complots derrière tout ça. Bien évidemment nous ne sommes pas ici pour "dire la vérité" mais seulement pour évoquer des théories les plus fascinantes qui entourent notre monde.</p>
+    <p>Notre site est né durant l'année 2020. Celle-ci étant pleine de problèmes nous nous sommes demandés s'il n'y avait pas des complots derrière tout ça. Bien évidemment nous ne sommes pas ici pour "dire la vérité" mais seulement pour évoquer les théories les plus fascinantes qui entourent notre monde.</p>
 </div>
 <br><br><br><br><br>
 <h2>Où nous trouver ?</h2>
