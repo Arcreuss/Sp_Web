@@ -13,40 +13,9 @@ nav{
 	display: inline-block;
 }
 
-<<<<<<< HEAD
 body{
 	color: white;
 }
-=======
-.centerBox{
-	width: 100%;
-	display: flex;
-}
-
-.article{
-	width: 75%;
-	border: 5px rgb(0, 0, 0) solid;
-	margin-left: 5px;
-}
-
-.TopArticle{
-	margin-left: 10%;
-}
-
-img.imgArticle{
-	width: 40%;
-	height: 40%;
-	margin-left: 30%;
-}
-
-#ParaArticle{
-	width: 50%;
-	margin-left: 25%;
-}
-
-
-
->>>>>>> b33d00960ec296b84d6dd2f58d33b583ac674784
 
 nav.menu-nav ul{
 	
@@ -243,13 +212,7 @@ div#content div h1, p, img{
 .menu-nav{
 	flex-direction: column;
 	width: 20%;
-<<<<<<< HEAD
 	background-image: url("images/darktree.jpg");
-=======
-	margin-left: 2.5%;
-	/* margin-top: -5%; */
-	background-image: url("images/fond.jpg");
->>>>>>> b33d00960ec296b84d6dd2f58d33b583ac674784
 	border-radius: 15px;
 	height: 400px;
 }
