@@ -8,18 +8,25 @@
     $file=fopen("data.csv", "r");
 
     $article=array();
+    $toutLesArticles=array();
     $i=0;
     while (!feof($file)) {
         $ligne=fgetcsv($file,0,";");
-        if($_GET['p']==$ligne[0]){
-            $article=$ligne;
-        }   
 
+        if(count($ligne)>2){
+
+            $toutLesArticles[]=$ligne;
+
+            if($_GET['p']==$ligne[0]){
+                $article=$ligne;
+            }
+        }
     }
     fclose($file);
     $taille=count($article);
     if($taille!=0){
         include_once('gestion data1.php');
+        include_once('article.php');
     }
     elseif($_GET['p'] == "home")
         include_once('pages/home.php');
