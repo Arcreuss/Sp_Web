@@ -3,6 +3,8 @@
 	if($taille!=0){
 		$titre=$article[0];
 
+		$titre=preg_replace("/-/"," ", $titre);
+		$titre[0]=strtoupper($titre[0]);
 
 		$datePublication=$article[1];
 		$auteur=$article[2];
@@ -28,10 +30,7 @@
 		while($i<$taille){
 			$commentaire[]=array('username' => $article[$i],'date' => $article[$i+1],'commentaire' => $article[$i+2]);
 			$i+=3;
-		}
-		$i++;
-		
-		include_once('article.php');
+		}	
 	}
 ?>
 
