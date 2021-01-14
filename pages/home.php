@@ -163,7 +163,7 @@ h1 :not(.title){
 
     echo "<div class=\"cadre-article\" id=\"$key\">";
     echo "<h1>$titre</h1>";
-    $resumer=substr($paragraphe[0], 100);
+    $resumer=substr($paragraphe[0], 0, 400);
 
     echo "<div class=\"text-intro\">";
     echo "<p>$resumer...</p>";
