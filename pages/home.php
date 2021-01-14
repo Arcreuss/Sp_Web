@@ -15,11 +15,12 @@ Home a été lancé
   background-color: black;    
   text-align: left;
   width: 20%;
-  margin-left: 150px;
+  margin-left: 10%;
   margin-top:150px;
   display: inline-block;
   font-family: Verdana,Helvetica,Arial,sans-serif;
   font-size: 25px;
+  overflow-wrap: break-word
 }
 .my2Div {
   border: 5px outset red;
@@ -31,6 +32,7 @@ Home a été lancé
   display: inline-block;
   font-family: Verdana,Helvetica,Arial,sans-serif;
   font-size: 25px;
+  overflow-wrap: break-word
 }
 .my3Div {
   border: 5px outset red;
@@ -42,6 +44,7 @@ Home a été lancé
   display: inline-block;
   font-family: Verdana,Helvetica,Arial,sans-serif;
   font-size: 25px;
+  overflow-wrap: break-word
 }
 
 .my4Div {
@@ -49,11 +52,12 @@ Home a été lancé
   background-color: black;    
   text-align: left;
   width: 20%;
-  margin-left: 151px;
+  margin-left: 10%;
   margin-top: 10px;
   display: inline-block;
   font-family: Verdana,Helvetica,Arial,sans-serif;
   font-size: 25px;
+  overflow-wrap: break-word
 }
 
 .my5Div {
@@ -66,6 +70,7 @@ Home a été lancé
   display: inline-block;
   font-family: Verdana,Helvetica,Arial,sans-serif;
   font-size: 25px;
+  overflow-wrap: break-word
 }
 
 .my6Div {
@@ -78,6 +83,7 @@ Home a été lancé
   display: inline-block;
   font-family: Verdana,Helvetica,Arial,sans-serif;
   font-size: 25px;
+  overflow-wrap: break-word
 }
 
 
@@ -144,7 +150,7 @@ Home a été lancé
     100% { background-position: 0 0; }
 }
 
-h1{
+h1 :not(.title){
   font-size: 40px;
 }
 </style>

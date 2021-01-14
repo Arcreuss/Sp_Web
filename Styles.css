@@ -28,7 +28,7 @@ nav.menu-nav ul{
 
 nav.menu-nav{
 	position: fixed;
-	top:200px;
+	top:90px;
     right:20px;
     width:250px;
     height:350px;
@@ -128,8 +128,8 @@ p.para{
 }
 
 .imgArticle{
-	width: 30%;
-	height: 30%;
+	width: 50%;
+	height: 50%;
 }
 
 footer{
@@ -254,4 +254,16 @@ h1{
 .logo{
 	text-align: center;
 	background-color: rgba(1, 1, 1, 0.3);
+}
+
+.pp {
+	max-width: 70px;
+}
+
+#commentaire {
+	border: solid #5865d9 1px;
+}
+
+#com-message {
+	margin-left: 40px;
 }
