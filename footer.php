@@ -1,3 +1,15 @@
+<style>
+.warning{
+    color: red;
+}
+</style>
+
+<div class="warning">
+    <p>
+        Attention , Ce site est totalement objectif , nous n'approuvons aucunes théories nous ne faisont que vous les partager et vous les expliquer. Merci de ne pas croire a tout ce qui est écris ici ou sur d'autres sites
+</p>
+</div>
+
 </div>
 
 </body>
