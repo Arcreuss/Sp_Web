@@ -170,7 +170,7 @@ h1 :not(.title){
     echo "<p>$datePublication, $auteur</p>";
     echo "</div>";
 
-    echo "<button class=\"glow-on-hover\" type=\"button\" onclick=\"window.location.href='http://iutannecy-deptinfo.fr/m1106/Quee/?p=$urlArticle';\">Lire l'article </button>";
+    echo "<button class=\"glow-on-hover\" type=\"button\" onclick=\"window.location.href='http://iutannecy-deptinfo.fr/m1106/Quee/?p=$urlArticle\">Lire l'article </button>";
     echo "</div>";
 
 
