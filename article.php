@@ -1,3 +1,21 @@
+<?php 
+        if (! empty( $_POST))
+        {
+            if(strlen($_POST['nom'])>1 && strlen($_POST['texte'])>1){
+                $toutLesArticles[$idArticle][]=$_POST['nom'];
+                $toutLesArticles[$idArticle][]=date('d-m-y');
+                $toutLesArticles[$idArticle][]=$_POST['texte'];
+
+                $commentaire[] = array('username' => $_POST['nom'], 'date' =>  date('d-m-y'), 'commentaire' => $_POST['texte']);
+
+                include_once("exporter-vers-datacsv.php");
+            }
+            else
+            {
+                echo "<p> saisi incorrect</p>";
+            }
+        }
+ ?>
 <div class="article">
     <link rel="stylesheet" type="text/css" href="style-article.css">
 
@@ -31,6 +49,9 @@
         }
         ?>
     </p>
+    <p id="mot">
+        Commentaire
+    </p>
     <p class="formulaire-article">
         <form method="POST">
             <input type="text" name="nom" id="nom" placeholder="Nom" size="5">
@@ -40,6 +61,16 @@
     </p>
     <p class="blockCommentaire">
       <?php 
+        $comInverse=array();
+        $compteur=count($commentaire)-1;
+        foreach ($commentaire as $value) {
+            $comInverse[$compteur]=$value;
+            $compteur--;
+        }
+        foreach ($commentaire as $key => $value) {
+             $compteur++;
+            $commentaire[$key]=$comInverse[$compteur];
+        }
         foreach ($commentaire as $value) {
             $user=$value['username'];
             $time=$value['date'];
