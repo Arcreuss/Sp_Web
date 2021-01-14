@@ -5,65 +5,33 @@
 <style>
 
 
-.myDiv {
+
+.cadre-article h2 {
+  height: calc(20px - 7vw);
+}
+
+.cadre-article{
+  width: 80%;
   border: 5px outset red;
   background-color: black;    
   text-align: left;
-  width: 20%;
   display: inline-block;
   font-family: Verdana,Helvetica,Arial,sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   overflow-wrap: break-word;
-
-}
-
-.myDiv h2 {
-  height: calc(300px - 7vw);
-  text-align: center;
+  margin-bottom: 20px;
 }
 
 
 .text-intro {
-  height: calc(1100px - 5vw);
-  text-align: center;
-  overflow-y: scroll;
+  height: calc(200px - 5vw);
   margin-bottom: 10px;
 }
 
 
-#my1Div {
-  margin-left: 10%;
-  margin-top:100px;
-}
-
-#my2Div {
-  margin-left: 50px;
-  margin-top:100px;
-}
-
-#my3Div {
-  margin-left: 50px;
-  margin-top:100px;
-}
-
-#my4Div {
-  margin-left: 10%;
-  margin-top: 10px;
-}
-
-#my5Div {
-  margin-left: 50px;
-  margin-top: 50px;
-}
-
-#my6Div {
-  margin-left: 50px;
-  margin-top: 50px;
-}
-
 
 .glow-on-hover {
-    width: 250px;
+    width: 20vw;
     height: 50px;
     border: none;
     outline: none;
@@ -72,7 +40,7 @@
     cursor: pointer;
     position: relative;
     margin-bottom: 20px;
-    margin-left: 100px;
+    margin-left: 50vw;
     z-index: 0;
     border-radius: 10px;
     font-size: 25px;
@@ -154,59 +122,61 @@ h1 :not(.title){
 
 <h1>Les populaires du moment :</h1>
 
-<div class="myDiv" id="my1Div">
-  <h2>L'Apocalypse 5G</h2>
-  <div class="text-intro">
-    <p>Une Nouvelle technologie a vus le jour récemment et il s'agit de la 5G! Il succède à la 4G et promet un accès à des débits bien meilleurs et bien plus performants de ceux de cette dernière avec des latences presques innexistantes et connexion rapide n'importe ou! Mais la provenance et les conséquences de cette nouvelle technologie est d'après certains très peu fiable et extremement dangereuse...</p>
-    <p>la Date , l'auteur etc</p>
-  </div>
-  <button class="glow-on-hover" type="button" onclick="window.location.href='http://iutannecy-deptinfo.fr/m1106/Quee/?p=l%27apocalypse-5g';">Cliquez ici Pour Lire !</button>
-</div>
+<?php 
+  foreach ($toutLesArticles as $key => $value) {
+    $article=$value;
+    $urlArticle=$value[0];
+    
+      $taille=count($article);
+      if($taille!=0){
+        $titre=$article[0];
 
-<div class="myDiv" id="my2Div">
-  <h2>Un Virus aux origines vagues ?</h2>
-  <div class="text-intro">
-    <p>Le Covid-19 cache de nombreux mystères dont sa provenance qui n'a jamais été réellement prouvé encore aujourd'hui ! Provient-il de l'ingération d'une chauve-souris? D'un autre animal ? Personne ne sait et pourtant de plus en plus de personnes pensent que l'envers du décors est bien plus effrayante...</p>
-    <p>la Date , l'auteur etc</p>
-  </div>
-  <button class="glow-on-hover" type="button">Cliquez ici pour Lire !</button>
-</div>
+        $titre=preg_replace("/-/"," ", $titre);
+        $titre[0]=strtoupper($titre[0]);
 
-<div class="myDiv" id="my3Div">
-  <h2>Un Vaccin particulier</h2>
-  <div class="text-intro">
-    <p>Récémment le vaccin Pfizer-BioNTech qui permet de combattre cette pathologie meurtrière qu'est le Covid-19 à été approuvé et commence déjà à être administré. Tandis que les états du monde le recommande pour combattre cette épidémie , une grande majorité s'oppose à cette vaccination pour différents motifs. La plus populaire d'entre elle? le fait que le vaccin contiendrais une puce assez spéciale... </p>
-    <p>la Date , l'auteur etc</p>
-  </div>
-  <button class="glow-on-hover" type="button">Cliquez ici pour Lire !</button>
-</div>
+        $datePublication=$article[1];
+        $auteur=$article[2];
+        $lienImage=$article[3];
+        $comImage=$article[4];
 
-<div class="myDiv" id="my4Div">
-  <h2>Le Voleur du Capitol</h2>
-  <div class="text-intro">
-    <p>Suite aux tragiques évenements du Capitol à quelques jours de la fin de la présidence de Trump , de nombreuses dégradations et vols ont étés commis dans l'édifice le plus emblématique de la démocratie américaine . Que ce soit des objets de valeurs, des meubles ou encore meme des disque dur qui d'après certains médias aurait mener leurs voleur à une mort tragique...</p>
-    <p>la Date , l'auteur etc</p>
-  </div>
-  <button class="glow-on-hover" type="button"onclick="window.location.href='http://iutannecy-deptinfo.fr/m1106/Quee/?p=le-voleur-du-capitol';">Cliquez ici pour Lire !</button>
-</div>
+        $paragraphe=array();
+        $source=array();
+        $commentaire=array();
 
-<div class="myDiv" id="my5Div">
-  <h2>Un Imposteur parmis les enseignants ?</h2>
-  <div class="text-intro">
-    <p>Madame Grazziano plus connus pour être une enseignante de Communication ou celle detenant un des meilleurs score au projet voltaire semble être une personne tout a fait normale et innocente de tout soupçon mais depuis la découverte d'une certaines images sur le réseaux social discord elle est suspecté de jouer un rôle et d'être en réalité un tout autre personnage bien particulier... </p>
-    <p>la Date , l'auteur etc</p>
-  </div>
-  <button class="glow-on-hover" type="button"onclick="window.location.href='http://iutannecy-deptinfo.fr/m1106/Quee/?p=un-imposteur-parmi-les-enseignants-?';">Cliquez ici pour Lire !</button>
-</div>
+        
+        $paragraphe=str_getcsv($article[5],"¬");
+        foreach ($paragraphe as $key => $value) {
+          if($key!='0')
+          $paragraphe[$key][0]=' ';
+        }
+        $i=7;
+        while($article[$i]!="#commentaire" && $i<=$taille){
+          $source[$article[$i]]=$article[$i+1];
+          $i+=2;
+        }
+        $i++;
+        while($i<$taille){
+          $commentaire[]=array('username' => $article[$i],'date' => $article[$i+1],'commentaire' => $article[$i+2]);
+          $i+=3;
+        } 
+      }
 
-<div class="myDiv" id="my6Div">
-  <h2>Des Attentats prémédités ?</h2>
-  <div class="text-intro">
-    <p>Le Monde entier à été victime d'attentats terroristes , c'est indéniable .Ces tragiques evenements ne pouvant être oublié a cause de leurs impact sur notre mode de vie et nos traditions étaient perpétré pour d'après les média nuire aux libertés des individus. Mais de cette crainte en née de nouvelles et plus particulièrement une qui suppose que les auteurs de ces attentats sont plus proches de nous que ce que nous pensons...</p>
-    <p>la Date , l'auteur etc</p>
-  </div>
-  <button class="glow-on-hover" type="button">Cliquez ici pour Lire !</button>
-</div>
+    echo "<div class=\"cadre-article\" id=\"$key\">";
+    echo "<h1>$titre</h1>";
+    $resumer=substr($paragraphe[0], 100);
+
+    echo "<div class=\"text-intro\">";
+    echo "<p>$resumer...</p>";
+    echo "<p>$datePublication, $auteur</p>";
+    echo "</div>";
+
+    echo "<button class=\"glow-on-hover\" type=\"button\" onclick=\"window.location.href='http://iutannecy-deptinfo.fr/m1106/Quee/?p=$urlArticle';\">Lire l'article </button>";
+    echo "</div>";
+
+
+  }
+ ?>
+
 
 
 </body>
