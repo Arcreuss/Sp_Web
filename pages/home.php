@@ -3,7 +3,6 @@
 Home a été lancé
 
 
-
 </div>
 <!DOCTYPE html>
 <html>
@@ -20,6 +19,7 @@ Home a été lancé
   margin-top:150px;
   display: inline-block;
   font-family: Verdana,Helvetica,Arial,sans-serif;
+  font-size: 25px;
 }
 .my2Div {
   border: 5px outset red;
@@ -30,6 +30,7 @@ Home a été lancé
   margin-top:150px;
   display: inline-block;
   font-family: Verdana,Helvetica,Arial,sans-serif;
+  font-size: 25px;
 }
 .my3Div {
   border: 5px outset red;
@@ -40,6 +41,7 @@ Home a été lancé
   margin-top:150px;
   display: inline-block;
   font-family: Verdana,Helvetica,Arial,sans-serif;
+  font-size: 25px;
 }
 
 .my4Div {
@@ -47,10 +49,11 @@ Home a été lancé
   background-color: black;    
   text-align: left;
   width: 20%;
-  margin-left: 150px;
-  margin-top: 50px;
+  margin-left: 151px;
+  margin-top: 10px;
   display: inline-block;
   font-family: Verdana,Helvetica,Arial,sans-serif;
+  font-size: 25px;
 }
 
 .my5Div {
@@ -62,6 +65,7 @@ Home a été lancé
   margin-top: 50px;
   display: inline-block;
   font-family: Verdana,Helvetica,Arial,sans-serif;
+  font-size: 25px;
 }
 
 .my6Div {
@@ -73,11 +77,12 @@ Home a été lancé
   margin-top: 50px;
   display: inline-block;
   font-family: Verdana,Helvetica,Arial,sans-serif;
+  font-size: 25px;
 }
 
 
 .glow-on-hover {
-    width: 220px;
+    width: 250px;
     height: 50px;
     border: none;
     outline: none;
@@ -86,9 +91,10 @@ Home a été lancé
     cursor: pointer;
     position: relative;
     margin-bottom: 20px;
-    margin-left: 75px;
+    margin-left: 100px;
     z-index: 0;
     border-radius: 10px;
+    font-size: 25px;
 }
 
 .glow-on-hover:before {
@@ -138,6 +144,9 @@ Home a été lancé
     100% { background-position: 0 0; }
 }
 
+h1{
+  font-size: 40px;
+}
 </style>
 </head>
 <body>
@@ -146,68 +155,44 @@ Home a été lancé
 
 <div class="myDiv">
   <h2>"L'Apocalypse" 5G</h2>
-  <p>Une Nouvelle technologie a vus le jour récemment et il s'agit de la 5G! Il succède à la 4G et promet un accès à des débits bien meilleurs et bien plus performants de ceux de cette dernière avec des latences presques innexistantes et connexion rapide n'importe ou! Mais la provenance et les conséquences de cette nouvelle technologie est d'après certains très peu fiable et dangereuse !</p>
+  <p>Une Nouvelle technologie a vus le jour récemment et il s'agit de la 5G! Il succède à la 4G et promet un accès à des débits bien meilleurs et bien plus performants de ceux de cette dernière avec des latences presques innexistantes et connexion rapide n'importe ou! Mais la provenance et les conséquences de cette nouvelle technologie est d'après certains très peu fiable et extremement dangereuse...</p>
   <p>la Date , l'auteur etc</p>
-<<<<<<< HEAD
   <button class="glow-on-hover" type="button">Cliquez ici Pour Lire !</button>
-=======
-  <button class="glow-on-hover" type="button">Clique Pour Lire !</button>
->>>>>>> 5a592960f20feffe15c31525960b6c2b385c759f
 </div>
 
 <div class="my2Div">
   <h2>Un Virus aux origines vagues ?</h2>
-  <p>Le Covid-19 cache de nombreux mystères dont sa provenance qui n'a jamais été réellement prouvé encore aujourd'hui ! Provient-il de l'ingération d'une chauve-souris? D'un autre animal ? Personne ne sait et pourtant de plus en plus de personnes pensent que l'envers du décors est bien plus effreyante</p>
+  <p>Le Covid-19 cache de nombreux mystères dont sa provenance qui n'a jamais été réellement prouvé encore aujourd'hui ! Provient-il de l'ingération d'une chauve-souris? D'un autre animal ? Personne ne sait et pourtant de plus en plus de personnes pensent que l'envers du décors est bien plus effreyante...</p>
   <p>la Date , l'auteur etc</p>
-<<<<<<< HEAD
   <button class="glow-on-hover" type="button">Cliquez ici pour Lire !</button>
-=======
-  <button class="glow-on-hover" type="button">Clique Pour Lire !</button>
->>>>>>> 5a592960f20feffe15c31525960b6c2b385c759f
 </div>
 
 <div class="my3Div">
-  <h2>Un vaccin particulier</h2>
+  <h2>Un Vaccin particulier</h2>
   <p>Récémment le vaccin Pfizer-BioNTech qui permet de combattre cette pathologie meurtrière qu'est le Covid-19 à été approuvé et commence déjà à être administré. Tandis que les états du monde le recommande pour combattre cette épidémie , une grande majorité s'oppose à cette vaccination pour différents motifs . La plus populaire d'entre elle? le fait que le vaccin contiendrais une puce assez spéciale... </p>
   <p>la Date , l'auteur etc</p>
-<<<<<<< HEAD
   <button class="glow-on-hover" type="button">Cliquez ici pour Lire !</button>
-=======
-  <button class="glow-on-hover" type="button">Clique Pour Lire !</button>
->>>>>>> 5a592960f20feffe15c31525960b6c2b385c759f
 </div>
 
 <div class="my4Div">
-  <h2>Le Titre</h2>
-  <p>Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion </p>
+  <h2>Le Voleur du Capitol</h2>
+  <p>Suite aux tragiques évenements du Capitol à quelques jours de la fin de la présidence de Trump , de nombreuses dégradations et vols ont étés commis dans l'édifice le plus emblématique de la démocratie américaine . Que ce soit des objets de valeurs, des meubles ou encore meme des disque dur qui d'après certains médias aurait mener leurs voleur à une mort tragique...</p>
   <p>la Date , l'auteur etc</p>
-<<<<<<< HEAD
   <button class="glow-on-hover" type="button">Cliquez ici pour Lire !</button>
-=======
-  <button class="glow-on-hover" type="button">Clique Pour Lire !</button>
->>>>>>> 5a592960f20feffe15c31525960b6c2b385c759f
 </div>
 
 <div class="my5Div">
-  <h2>Le Titre</h2>
-  <p>Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion </p>
+  <h2>Un Imposteur parmis les enseignants ?</h2>
+  <p>Madame Grazziano plus connus pour être une enseignante de Communication ou celle detenant un des meilleurs score au projet voltaire semble être une personne tout a fait normale et innocente de tout soupçon mais depuis la découverte d'une certaines images sur le réseaux social discord elle est suspecté de jouer un rôle et d'être en réalité un tout autre personnage bien particulier... </p>
   <p>la Date , l'auteur etc</p>
-<<<<<<< HEAD
   <button class="glow-on-hover" type="button">Cliquez ici pour Lire !</button>
-=======
-  <button class="glow-on-hover" type="button">Clique Pour Lire !</button>
->>>>>>> 5a592960f20feffe15c31525960b6c2b385c759f
 </div>
 
 <div class="my6Div">
-  <h2>Le Titre</h2>
-  <p>Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion </p>
+  <h2>Des Attentats prémédités ?</h2>
+  <p>Le Monde entier à été victime d'attentats terroristes , c'est indéniable .Ces tragiques evenements ne pouvant être oublié a cause de leurs impact sur notre mode de vie et nos traditions étaient perpétré pour d'après les média nuire aux libertés des individus. Mais de cette crainte en née de nouvelles et plus particulièrement une qui suppose que les auteurs de ces attentats sont plus proches de nous que ce que nous pensons...</p>
   <p>la Date , l'auteur etc</p>
-<<<<<<< HEAD
   <button class="glow-on-hover" type="button">Cliquez ici pour Lire !</button>
-=======
-  <button class="glow-on-hover" type="button">Clique Pour Lire !</button>
->>>>>>> 5a592960f20feffe15c31525960b6c2b385c759f
 </div>
 
 
