@@ -144,6 +144,8 @@ footer{
 	font-size: 18px;
 	color: rgba(54, 54, 54, 0.5);
 	margin-top: 50px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	color: white;
 }
 
 div#content{
