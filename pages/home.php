@@ -12,7 +12,7 @@
 
 .cadre-article{
   width: 80%;
-  border: 5px outset red;
+  border: 15px solid rgba(3,152,252,0.3);
   background-color: black;    
   text-align: left;
   display: inline-block;
