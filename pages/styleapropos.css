@@ -42,7 +42,7 @@ h2{
 }
 
 
-p{
+p :not(footer){
     font-size: 150%;
 }
 

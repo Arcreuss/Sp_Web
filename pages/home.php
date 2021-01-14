@@ -1,9 +1,4 @@
 <title>Home</title>
-
-Home a été lancé
-
-
-</div>
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,25 +17,28 @@ Home a été lancé
 
 .myDiv h2 {
   height: calc(300px - 7vw);
+  text-align: center;
 }
+
 
 .text-intro {
   height: calc(3150px - 150vw);
+  text-align: center;
 }
 
 #my1Div {
   margin-left: 10%;
-  margin-top:150px;
+  margin-top:100px;
 }
 
 #my2Div {
   margin-left: 50px;
-  margin-top:150px;
+  margin-top:100px;
 }
 
 #my3Div {
   margin-left: 50px;
-  margin-top:150px;
+  margin-top:100px;
 }
 
 #my4Div {
@@ -132,7 +130,7 @@ h1 :not(.title){
 <h1>Les populaires du moment :</h1>
 
 <div class="myDiv" id="my1Div">
-  <h2>"L'Apocalypse" 5G</h2>
+  <h2>L'Apocalypse 5G</h2>
   <p class="text-intro">Une Nouvelle technologie a vus le jour récemment et il s'agit de la 5G! Il succède à la 4G et promet un accès à des débits bien meilleurs et bien plus performants de ceux de cette dernière avec des latences presques innexistantes et connexion rapide n'importe ou! Mais la provenance et les conséquences de cette nouvelle technologie est d'après certains très peu fiable et extremement dangereuse...</p>
   <p>la Date , l'auteur etc</p>
   <button class="glow-on-hover" type="button" onclick="window.location.href='http://iutannecy-deptinfo.fr/m1106/Quee/?p=l%27apocalypse-5g';">Cliquez ici Pour Lire !</button>
@@ -140,7 +138,7 @@ h1 :not(.title){
 
 <div class="myDiv" id="my2Div">
   <h2>Un Virus aux origines vagues ?</h2>
-  <p class="text-intro">Le Covid-19 cache de nombreux mystères dont sa provenance qui n'a jamais été réellement prouvé encore aujourd'hui ! Provient-il de l'ingération d'une chauve-souris? D'un autre animal ? Personne ne sait et pourtant de plus en plus de personnes pensent que l'envers du décors est bien plus effreyante...</p>
+  <p class="text-intro">Le Covid-19 cache de nombreux mystères dont sa provenance qui n'a jamais été réellement prouvé encore aujourd'hui ! Provient-il de l'ingération d'une chauve-souris? D'un autre animal ? Personne ne sait et pourtant de plus en plus de personnes pensent que l'envers du décors est bien plus effrayante...</p>
   <p>la Date , l'auteur etc</p>
   <button class="glow-on-hover" type="button">Cliquez ici pour Lire !</button>
 </div>
