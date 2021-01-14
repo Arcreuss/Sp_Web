@@ -1,0 +1,107 @@
+.article {
+	margin: 0px;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+
+    background-color: rgba(0,0,0,0.7);
+}
+
+.TopArticle{
+	display: inline-block;
+	width: 600px;
+	background-color: #224e6d60;
+	height: 100px;
+	position: relative;
+	z-index:1;
+	margin-top: 300px;
+	margin-left: 300px; 
+}
+.pp{
+	width: 70px;
+	border-radius: 15px;
+	border: 1px transparent solid;
+	margin-left: -480px;
+	margin-top: 15px;
+	transition-duration: 0.5s;
+}
+.pp:hover{
+	border: 1px #47b8d4 solid;
+}
+div>h1{
+	position: absolute;
+	text-align: center;
+	top: 200px;
+}
+.titreArticle{
+	position: relative;
+	z-index:10;
+	margin: 0;
+	color: white;
+	font-size: 50px;
+	text-shadow: 0,0,8,black;
+}
+.auteur-date{
+	margin-top: -70px;
+	margin-left: -210px;
+	font-weight:bold;
+}
+
+div>div{
+	margin-top: -500px;
+    width: 1200px;
+    height: 500px;
+
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+}
+.imgArticle{
+
+	width: 1200px;
+	height: auto;
+	margin-top: auto;
+	margin-left: auto;
+}
+
+.paraArticle{
+	font-size: 25px;
+	padding: 70px;
+	padding-bottom: 0;
+	margin-top: -50px;
+}
+.sources{
+	margin-left: 70px;
+	margin-top: -40px;
+}
+#nom{
+	margin-left: 70px;
+}
+
+.blockCommentaire{
+	position: relative;
+}
+.commentaire{
+	margin-top: 10px;
+	margin-left: 70px;
+	margin-right: 70px;
+	background-color: #224e6d60;
+	padding-bottom: 10px;
+}
+.commentaire:hover{
+	background-color: #224e6d90;
+}
+.com{
+	display: inline-block;
+}
+#date-com{
+	font-weight:bold;
+}
+#nom-com{
+	margin-left: -15px;
+}
+#text-com{
+	margin-top: -10px;
+}
+

@@ -1,46 +1,52 @@
 <div class="article">
+    <link rel="stylesheet" type="text/css" href="style-article.css">
+
     <?php
-    include_once("gestion data1.php")
+
+    include_once("gestion data1.php");
     ?>
 
+    <h1 class="titreArticle"><?PHP echo $titre ?></h1>
     <div class="TopArticle">
-        <p>
-            <h1 id="TitreArticle"><?PHP echo $titre ?></h1>
             <img class="pp" src="https://thispersondoesnotexist.com/image" alt="photo de l'auteur">
-            <?PHP echo $auteur . ", le " . $datePublication ?>
-        </p>
+            <?PHP echo "<p class=\"auteur-date\">$auteur, le $datePublication </p>" ?>
+    </div>
+
+    <div>
+    <?PHP echo  "<img class='imgArticle' src=$lienImage alt=$comImage>" ?>
         
     </div>
 
-    <?PHP echo  "<img class='imgArticle' src=$lienImage alt=$comImage>" ?>
 
-
-    <p id="ParaArticle">
+    <p>
         <?PHP
         foreach ($paragraphe as $texte) {
-            echo "<p>$texte</p>";
+            echo "<p class='paraArticle' >$texte</p>";
         }
         echo "<br/> </br>";
 
-        echo "Sources : ";
+        echo "</p ><p class='sources'>Sources : ";
         foreach ($source as $key => $sr) {
             echo "<a href=\"$sr\">$key</a>";
         }
         ?>
     </p>
-    <p>
-
+    <p class="formulaire-article">
+        <form method="POST">
+            <input type="text" name="nom" id="nom" placeholder="Nom" size="5">
+            <input type="text" name="texte" id="texte" placeholder="message" size="50">
+            <button type="submit" name="nouveauCom">ok</button>
+        </form>
     </p>
-    <p>
+    <p class="blockCommentaire">
       <?php 
         foreach ($commentaire as $value) {
             $user=$value['username'];
             $time=$value['date'];
             $com=$value['commentaire'];
             $alea=rand(0,3);
-            echo "<div id=\"commentaire\"><p id=\"com-temps\">$time</p><p id=\"com-username\">$user</p><p id=\"com-message\">$com</p></div>";
+            echo "<section class=\"commentaire\"><p id=\"date-com\" class=\"com\">$time,</p><p id=\"nom-com\" class=\"com\">$user</p><p id=\"text-com\">$com</p></section>";
         }
-        print_r($toutLesArticles) ;
        ?>  
     </p>
 
