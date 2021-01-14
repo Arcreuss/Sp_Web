@@ -1,3 +1,19 @@
+<?php 
+        if (! empty( $_POST) && isset($_POST['nouveauCom']))
+        {
+            if(strlen($_POST['nom'])>1 && strlen($_POST['texte'])>1){
+                $toutLesArticles[$idArticle][]=$_POST['nom'];
+                $toutLesArticles[$idArticle][]=date('d-m-y');
+                $toutLesArticles[$idArticle][]=$_POST['texte'];
+
+                include_once("exporter-vers-datacsv.php");
+            }
+            else
+            {
+                echo "<p> saisi incorrect</p>";
+            }
+        }
+ ?>
 <div class="article">
     <link rel="stylesheet" type="text/css" href="style-article.css">
 
@@ -40,6 +56,16 @@
     </p>
     <p class="blockCommentaire">
       <?php 
+        $comInverse=array();
+        $compteur=count($commentaire)-1;
+        foreach ($commentaire as $value) {
+            $comInverse[$compteur]=$value;
+            $compteur--;
+        }
+        foreach ($commentaire as $key => $value) {
+             $compteur++;
+            $commentaire[$key]=$comInverse[$compteur];
+        }
         foreach ($commentaire as $value) {
             $user=$value['username'];
             $time=$value['date'];
