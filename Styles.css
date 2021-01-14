@@ -140,8 +140,7 @@ p.para{
 }
 
 footer{
-	background-color:  white;
-	float: right;
+	background-color:  transparent;
 	font-size: 18px;
 	color: rgba(54, 54, 54, 0.5);
 	margin-top: 50px;
