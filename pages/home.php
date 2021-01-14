@@ -9,81 +9,53 @@ Home a été lancé
 <head>
 <style>
 
-
 .myDiv {
   border: 5px outset red;
   background-color: black;    
   text-align: left;
   width: 20%;
-  margin-left: 10%;
-  margin-top:150px;
-  display: inline-block;
-  font-family: Verdana,Helvetica,Arial,sans-serif;
-  font-size: 25px;
-  overflow-wrap: break-word
-}
-.my2Div {
-  border: 5px outset red;
-  background-color: black;    
-  text-align: left;
-  width: 20%;
-  margin-left: 50px;
-  margin-top:150px;
-  display: inline-block;
-  font-family: Verdana,Helvetica,Arial,sans-serif;
-  font-size: 25px;
-  overflow-wrap: break-word
-}
-.my3Div {
-  border: 5px outset red;
-  background-color: black;    
-  text-align: left;
-  width: 20%;
-  margin-left: 50px;
-  margin-top:150px;
   display: inline-block;
   font-family: Verdana,Helvetica,Arial,sans-serif;
   font-size: 25px;
   overflow-wrap: break-word
 }
 
-.my4Div {
-  border: 5px outset red;
-  background-color: black;    
-  text-align: left;
-  width: 20%;
+.myDiv h2 {
+  height: calc(300px - 7vw);
+}
+
+.text-intro {
+  height: calc(3150px - 150vw);
+}
+
+#my1Div {
+  margin-left: 10%;
+  margin-top:150px;
+}
+
+#my2Div {
+  margin-left: 50px;
+  margin-top:150px;
+}
+
+#my3Div {
+  margin-left: 50px;
+  margin-top:150px;
+}
+
+#my4Div {
   margin-left: 10%;
   margin-top: 10px;
-  display: inline-block;
-  font-family: Verdana,Helvetica,Arial,sans-serif;
-  font-size: 25px;
-  overflow-wrap: break-word
 }
 
-.my5Div {
-  border: 5px outset red;
-  background-color: black;    
-  text-align: left;
-  width: 20%;
+#my5Div {
   margin-left: 50px;
   margin-top: 50px;
-  display: inline-block;
-  font-family: Verdana,Helvetica,Arial,sans-serif;
-  font-size: 25px;
-  overflow-wrap: break-word
 }
 
-.my6Div {
-  border: 5px outset red;
-  background-color: black;    
-  text-align: left;
-  width: 20%;
+#my6Div {
   margin-left: 50px;
   margin-top: 50px;
-  display: inline-block;
-  font-family: Verdana,Helvetica,Arial,sans-serif;
-  font-size: 25px;
-  overflow-wrap: break-word
 }
 
 
@@ -159,44 +131,44 @@ h1 :not(.title){
 
 <h1>Les populaires du moment :</h1>
 
-<div class="myDiv">
+<div class="myDiv" id="my1Div">
   <h2>"L'Apocalypse" 5G</h2>
-  <p>Une Nouvelle technologie a vus le jour récemment et il s'agit de la 5G! Il succède à la 4G et promet un accès à des débits bien meilleurs et bien plus performants de ceux de cette dernière avec des latences presques innexistantes et connexion rapide n'importe ou! Mais la provenance et les conséquences de cette nouvelle technologie est d'après certains très peu fiable et extremement dangereuse...</p>
+  <p class="text-intro">Une Nouvelle technologie a vus le jour récemment et il s'agit de la 5G! Il succède à la 4G et promet un accès à des débits bien meilleurs et bien plus performants de ceux de cette dernière avec des latences presques innexistantes et connexion rapide n'importe ou! Mais la provenance et les conséquences de cette nouvelle technologie est d'après certains très peu fiable et extremement dangereuse...</p>
   <p>la Date , l'auteur etc</p>
-  <button class="glow-on-hover" type="button">Cliquez ici Pour Lire !</button>
+  <button class="glow-on-hover" type="button" onclick="window.location.href='http://iutannecy-deptinfo.fr/m1106/Quee/?p=l%27apocalypse-5g';">Cliquez ici Pour Lire !</button>
 </div>
 
-<div class="my2Div">
+<div class="myDiv" id="my2Div">
   <h2>Un Virus aux origines vagues ?</h2>
-  <p>Le Covid-19 cache de nombreux mystères dont sa provenance qui n'a jamais été réellement prouvé encore aujourd'hui ! Provient-il de l'ingération d'une chauve-souris? D'un autre animal ? Personne ne sait et pourtant de plus en plus de personnes pensent que l'envers du décors est bien plus effreyante...</p>
+  <p class="text-intro">Le Covid-19 cache de nombreux mystères dont sa provenance qui n'a jamais été réellement prouvé encore aujourd'hui ! Provient-il de l'ingération d'une chauve-souris? D'un autre animal ? Personne ne sait et pourtant de plus en plus de personnes pensent que l'envers du décors est bien plus effreyante...</p>
   <p>la Date , l'auteur etc</p>
   <button class="glow-on-hover" type="button">Cliquez ici pour Lire !</button>
 </div>
 
-<div class="my3Div">
+<div class="myDiv" id="my3Div">
   <h2>Un Vaccin particulier</h2>
-  <p>Récémment le vaccin Pfizer-BioNTech qui permet de combattre cette pathologie meurtrière qu'est le Covid-19 à été approuvé et commence déjà à être administré. Tandis que les états du monde le recommande pour combattre cette épidémie , une grande majorité s'oppose à cette vaccination pour différents motifs . La plus populaire d'entre elle? le fait que le vaccin contiendrais une puce assez spéciale... </p>
+  <p class="text-intro">Récémment le vaccin Pfizer-BioNTech qui permet de combattre cette pathologie meurtrière qu'est le Covid-19 à été approuvé et commence déjà à être administré. Tandis que les états du monde le recommande pour combattre cette épidémie , une grande majorité s'oppose à cette vaccination pour différents motifs . La plus populaire d'entre elle? le fait que le vaccin contiendrais une puce assez spéciale... </p>
   <p>la Date , l'auteur etc</p>
   <button class="glow-on-hover" type="button">Cliquez ici pour Lire !</button>
 </div>
 
-<div class="my4Div">
+<div class="myDiv" id="my4Div">
   <h2>Le Voleur du Capitol</h2>
-  <p>Suite aux tragiques évenements du Capitol à quelques jours de la fin de la présidence de Trump , de nombreuses dégradations et vols ont étés commis dans l'édifice le plus emblématique de la démocratie américaine . Que ce soit des objets de valeurs, des meubles ou encore meme des disque dur qui d'après certains médias aurait mener leurs voleur à une mort tragique...</p>
+  <p class="text-intro">Suite aux tragiques évenements du Capitol à quelques jours de la fin de la présidence de Trump , de nombreuses dégradations et vols ont étés commis dans l'édifice le plus emblématique de la démocratie américaine . Que ce soit des objets de valeurs, des meubles ou encore meme des disque dur qui d'après certains médias aurait mener leurs voleur à une mort tragique...</p>
   <p>la Date , l'auteur etc</p>
   <button class="glow-on-hover" type="button">Cliquez ici pour Lire !</button>
 </div>
 
-<div class="my5Div">
+<div class="myDiv" id="my5Div">
   <h2>Un Imposteur parmis les enseignants ?</h2>
-  <p>Madame Grazziano plus connus pour être une enseignante de Communication ou celle detenant un des meilleurs score au projet voltaire semble être une personne tout a fait normale et innocente de tout soupçon mais depuis la découverte d'une certaines images sur le réseaux social discord elle est suspecté de jouer un rôle et d'être en réalité un tout autre personnage bien particulier... </p>
+  <p class="text-intro">Madame Grazziano plus connus pour être une enseignante de Communication ou celle detenant un des meilleurs score au projet voltaire semble être une personne tout a fait normale et innocente de tout soupçon mais depuis la découverte d'une certaines images sur le réseaux social discord elle est suspecté de jouer un rôle et d'être en réalité un tout autre personnage bien particulier... </p>
   <p>la Date , l'auteur etc</p>
-  <button class="glow-on-hover" type="button">Cliquez ici pour Lire !</button>
+  <button class="glow-on-hover" type="button"onclick="window.location.href='http://iutannecy-deptinfo.fr/m1106/Quee/?p=un-imposteur-parmi-les-enseignants-?';">Cliquez ici pour Lire !</button>
 </div>
 
-<div class="my6Div">
+<div class="myDiv" id="my6Div">
   <h2>Des Attentats prémédités ?</h2>
-  <p>Le Monde entier à été victime d'attentats terroristes , c'est indéniable .Ces tragiques evenements ne pouvant être oublié a cause de leurs impact sur notre mode de vie et nos traditions étaient perpétré pour d'après les média nuire aux libertés des individus. Mais de cette crainte en née de nouvelles et plus particulièrement une qui suppose que les auteurs de ces attentats sont plus proches de nous que ce que nous pensons...</p>
+  <p class="text-intro">Le Monde entier à été victime d'attentats terroristes , c'est indéniable .Ces tragiques evenements ne pouvant être oublié a cause de leurs impact sur notre mode de vie et nos traditions étaient perpétré pour d'après les média nuire aux libertés des individus. Mais de cette crainte en née de nouvelles et plus particulièrement une qui suppose que les auteurs de ces attentats sont plus proches de nous que ce que nous pensons...</p>
   <p>la Date , l'auteur etc</p>
   <button class="glow-on-hover" type="button">Cliquez ici pour Lire !</button>
 </div>
