@@ -132,6 +132,7 @@ h1 :not(.title){
         $titre=$article[0];
 
         $titre=preg_replace("/-/"," ", $titre);
+        $urlArticle=preg_replace("/'/","%27", $urlArticle);
         $titre[0]=strtoupper($titre[0]);
 
         $datePublication=$article[1];
