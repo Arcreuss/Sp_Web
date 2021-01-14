@@ -1,7 +1,7 @@
 <?php 
         if (! empty( $_POST))
         {
-            if(strlen($_POST['nom'])>1 && strlen($_POST['texte'])>1 && in_array($_POST['texte'], $commentaire)){
+            if(strlen($_POST['nom'])>1 && strlen($_POST['texte'])>1){
                 $toutLesArticles[$idArticle][]=$_POST['nom'];
                 $toutLesArticles[$idArticle][]=date('d-m-y');
                 $toutLesArticles[$idArticle][]=$_POST['texte'];
