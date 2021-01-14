@@ -1,10 +1,12 @@
 <?php 
-        if (! empty( $_POST) && isset($_POST['nouveauCom']))
+        if (! empty( $_POST))
         {
-            if(strlen($_POST['nom'])>1 && strlen($_POST['texte'])>1){
+            if(strlen($_POST['nom'])>1 && strlen($_POST['texte'])>1 && in_array($_POST['texte'], $commentaire)){
                 $toutLesArticles[$idArticle][]=$_POST['nom'];
                 $toutLesArticles[$idArticle][]=date('d-m-y');
                 $toutLesArticles[$idArticle][]=$_POST['texte'];
+
+                $commentaire[] = array('username' => $_POST['nom'], 'date' =>  date('d-m-y'), 'commentaire' => $_POST['texte']);
 
                 include_once("exporter-vers-datacsv.php");
             }
@@ -46,6 +48,9 @@
             echo "<a href=\"$sr\">$key</a>";
         }
         ?>
+    </p>
+    <p id="mot">
+        Commentaire
     </p>
     <p class="formulaire-article">
         <form method="POST">

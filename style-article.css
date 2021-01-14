@@ -82,6 +82,11 @@ div>div{
 .blockCommentaire{
 	position: relative;
 }
+#mot{
+	margin-left: 70px;
+	margin-top:50px;
+	font-size: 30px;
+}
 .commentaire{
 	margin-top: 10px;
 	margin-left: 70px;

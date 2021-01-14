@@ -5,5 +5,4 @@
 	}
 	$fichier=implode("\n", $tableau);
 	file_put_contents("data.csv", $fichier);
-	echo "ok";
  ?>
