@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="icon" href="favicon.ico" />
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="Styles.css">
@@ -10,6 +12,9 @@
 </head>
 
 <style>
+.img-logo{
+    width: calc(100% - 5vw);
+}
 .logo {
     width: 100%;
     height: 100%;
@@ -25,6 +30,7 @@
     border-radius: 10px;
 	font-size: 25px;
 	margin-left: -1%;
+    text-align: center;
 }
 
 .logo:before {
@@ -72,19 +78,43 @@
 }
 </style>
 <body>
-	
+	<div id="ex1"></div>
+    	<nav class="menu-wel">
+    		<ul>
+    			<li>
+    				<div class="logo">
+    				<img class="img-logo" src="images/complosite.png" alt="Complosite">
+    	           </div>
+            </li>			
+        </ul>
+        <nav class="menu-nav2">
+                    <ul class="manu-nav3">
+                        <li class="btn">
+                            <h1 class="title">Menu principal
+                            </h1>
+                        </li>
+                        <li class="btn">
+                                <a href="?p=home" class="<?php if($_GET['p'] == 'home') { echo "select"; } ?>">
+                                     Home
+                                </a>
+                        </li>
+                        <li class="btn" >
+                                <a href="?p=aleatoire" class="<?php if($_GET['p'] != 'home' && $_GET['p'] != 'submission' && $_GET['p'] != 'apropos') { echo "select"; } ?>">
+                                    Aléatoire
+                                </a>
+                        </li>
+                        <li class="btn">
+                                <a href="?p=submission" class="<?php if($_GET['p'] == 'submission') { echo "select"; } ?>">
+                                    Submission
+                                </a>
+                        </li>
+                        <li class="btn">
+                                <a href="?p=apropos" class="<?php if($_GET['p'] == 'apropos') { echo "select"; } ?>">
+                                    A propos de nous
+                            </a>
+                        </li>              
+                    </ul>
+                </nav>
+</nav>
 
-		<div id="ex1"></div>
-
-	<nav class="menu-wel">
-		<ul>
-			<li>
-				<div class="logo">
-				<img src="images/complosite.png" alt="Complosite">
-	  			</div>
-			</li>
-		
-			
-		</ul>
-	</nav>
 

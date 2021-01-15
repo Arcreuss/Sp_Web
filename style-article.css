@@ -1,30 +1,30 @@
 .article {
 	margin: 0px;
-
     margin-left: auto;
     margin-right: auto;
-    width: 1200px;
+    width: 80vw;
 
     background-color: rgba(0,0,0,0.7);
+
 }
 
 .TopArticle{
 	display: inline-block;
-	width: 600px;
+	width: 50vw;
 	background-color: #224e6d60;
 	height: 100px;
 	position: relative;
 	z-index:1;
-	margin-top: 300px;
-	margin-left: 300px; 
+	margin-top: 180px;
+	margin-left: 15vw; 
+
 }
 .pp{
 	width: 70px;
 	border-radius: 15px;
 	border: 1px transparent solid;
-	margin-left: -480px;
+	margin-left: -35vw;
 	margin-top: 15px;
-	transition-duration: 0.5s;
 }
 .pp:hover{
 	border: 1px #47b8d4 solid;
@@ -37,21 +37,20 @@ div>h1{
 .titreArticle{
 	position: relative;
 	z-index:10;
-	margin: 0;
+	margin: 3vw;
 	color: white;
 	font-size: 50px;
 	text-shadow: 0,0,8,black;
 }
 .auteur-date{
 	margin-top: -70px;
-	margin-left: -210px;
 	font-weight:bold;
 }
 
 div>div{
-	margin-top: -500px;
-    width: 1200px;
-    height: 500px;
+	margin-top: -380px;
+    width: 80vw;
+    height: 400px;
 
     position: absolute;
     text-align: center;
@@ -59,17 +58,16 @@ div>div{
 }
 .imgArticle{
 
-	width: 1200px;
+	width: 80vw;
 	height: auto;
-	margin-top: auto;
+	margin-top: -10vw;
 	margin-left: auto;
 }
 
 .paraArticle{
 	font-size: 25px;
-	padding: 70px;
-	padding-bottom: 0;
-	margin-top: -50px;
+	padding: 2vw;
+	margin-bottom: -4vw;
 }
 .sources{
 	margin-left: 70px;

@@ -1,7 +1,5 @@
 <title>Home</title>
 
-Home a été lancé
-
 
 
 </div>
@@ -144,6 +142,12 @@ Home a été lancé
 
 <h1>Les populaires du moment :</h1>
 
+<?php 
+  foreach ($toutLesArticles as $key => $value) {
+    $article=$value;
+  }
+ ?>
+
 <div class="myDiv">
   <h2>Le Titre</h2>
   <p>Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion </p>
@@ -151,39 +155,6 @@ Home a été lancé
   <button class="glow-on-hover" type="button">Clique Pour Lire !</button>
 </div>
 
-<div class="my2Div">
-  <h2>Le Titre</h2>
-  <p>Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion </p>
-  <p>la Date , l'auteur etc</p>
-  <button class="glow-on-hover" type="button">Clique Pour Lire !</button>
-</div>
-
-<div class="my3Div">
-  <h2>Le Titre</h2>
-  <p>Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion </p>
-  <p>la Date , l'auteur etc</p>
-  <button class="glow-on-hover" type="button">Clique Pour Lire !</button>
-</div>
-
-<div class="my4Div">
-  <h2>Le Titre</h2>
-  <p>Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion </p>
-  <p>la Date , l'auteur etc</p>
-  <button class="glow-on-hover" type="button">Clique Pour Lire !</button>
-</div>
-
-<div class="my5Div">
-  <h2>Le Titre</h2>
-  <p>Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion </p>
-  <p>la Date , l'auteur etc</p>
-  <button class="glow-on-hover" type="button">Clique Pour Lire !</button>
-</div>
-
-<div class="my6Div">
-  <h2>Le Titre</h2>
-  <p>Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion Ceci est une descritpion </p>
-  <p>la Date , l'auteur etc</p>
-  <button class="glow-on-hover" type="button">Clique Pour Lire !</button>
 </div>
 
 

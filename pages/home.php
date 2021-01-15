@@ -11,7 +11,8 @@
 }
 
 .cadre-article{
-  width: 80%;
+  width: 80vw;
+  margin-left: 7vw;
   border: 15px solid rgba(3,152,252,0.3);
   background-color: black;    
   text-align: left;
@@ -24,8 +25,12 @@
 
 
 .text-intro {
-  height: calc(200px - 5vw);
+  height: calc(200px - 2vw);
   margin-bottom: 10px;
+}
+
+.titre-liste-article{
+  margin-left: 10vw;
 }
 
 
@@ -40,7 +45,7 @@
     cursor: pointer;
     position: relative;
     margin-bottom: 20px;
-    margin-left: 50vw;
+    margin-left: 60vw;
     z-index: 0;
     border-radius: 10px;
     font-size: 25px;
@@ -120,7 +125,7 @@ h1 :not(.title){
 </head>
 <body>
 
-<h1>Les populaires du moment :</h1>
+<h1 class="titre-liste-article">Les populaires du moment :</h1>
 
 <?php 
   foreach ($toutLesArticles as $key => $value) {
@@ -171,7 +176,7 @@ h1 :not(.title){
     echo "<p>$datePublication, $auteur</p>";
     echo "</div>";
 
-    echo "<button class=\"glow-on-hover\" type=\"button\" onclick=\"window.location.href='http://iutannecy-deptinfo.fr/m1106/Quee/?p=$urlArticle';\">Lire l'article </button>";
+    echo "<button class=\"glow-on-hover\" type=\"button\" onclick=\"window.location.href='http://iutannecy-deptinfo.fr/m1106/Quee/?p=$urlArticle'\">Lire l'article </button>";
     echo "</div>";
 
 
