@@ -3,7 +3,7 @@
 <div class="foot">
 <footer>
         <p id="warning">
-        Attention , Ce site est totalement objectif , nous n'approuvons aucunes théories nous ne faisont que vous les partager et vous les expliquer. Merci de ne pas croire a tout ce qui est écris ici ou sur d'autres sites
+        Attention, Ce site n'est pas objectif. Nous n'approuvons aucune théorie, nous les partageons et les expliquons seulement. Merci de ne pas croire à tout ce qui est écrit ici ou sur d'autres sites
         </p>
 		<p>
 			Copyright &copy; PERROD Ethan / GOÏ Lucas / DELVALLE Luc / PIERRE Aymeric / CHAOUKI Younes 2021 All Right reserved
